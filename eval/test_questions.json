@@ -1,0 +1,331 @@
+[
+  {
+    "id": "A01",
+    "type": "answerable",
+    "question": "How many casual leave days do employees get per year?",
+    "expected_answer": "12 days per year.",
+    "expected_sources": [
+      "leave_policy.pdf"
+    ],
+    "evidence": "Casual Leave: 12 days per year"
+  },
+  {
+    "id": "A02",
+    "type": "answerable",
+    "question": "Do I need a medical certificate for sick leave?",
+    "expected_answer": "Yes, if sick leave is taken for more than 2 consecutive days.",
+    "expected_sources": [
+      "leave_policy.pdf"
+    ],
+    "evidence": "A medical certificate is required if sick leave is taken for more than 2 consecutive days"
+  },
+  {
+    "id": "A03",
+    "type": "answerable",
+    "question": "What is the maximum earned leave balance I can carry forward?",
+    "expected_answer": "30 days.",
+    "expected_sources": [
+      "leave_policy.pdf"
+    ],
+    "evidence": "up to a maximum balance of 30 days"
+  },
+  {
+    "id": "A04",
+    "type": "answerable",
+    "question": "How long is maternity leave?",
+    "expected_answer": "26 weeks of paid leave.",
+    "expected_sources": [
+      "leave_policy.pdf"
+    ],
+    "evidence": "26 weeks of paid leave"
+  },
+  {
+    "id": "A05",
+    "type": "answerable",
+    "question": "How many days in advance must I apply for leave longer than 2 days?",
+    "expected_answer": "At least 3 working days in advance.",
+    "expected_sources": [
+      "leave_policy.pdf"
+    ],
+    "evidence": "at least 3 working days in advance"
+  },
+  {
+    "id": "A06",
+    "type": "answerable",
+    "question": "What is the minimum password length?",
+    "expected_answer": "At least 14 characters.",
+    "expected_sources": [
+      "it_security_policy.pdf"
+    ],
+    "evidence": "at least 14 characters long"
+  },
+  {
+    "id": "A07",
+    "type": "answerable",
+    "question": "How often do I have to change my password?",
+    "expected_answer": "Every 90 days.",
+    "expected_sources": [
+      "it_security_policy.pdf"
+    ],
+    "evidence": "changed every 90 days"
+  },
+  {
+    "id": "A08",
+    "type": "answerable",
+    "question": "How soon must I report a lost laptop?",
+    "expected_answer": "Within 1 hour.",
+    "expected_sources": [
+      "it_security_policy.pdf",
+      "it_helpdesk_faq.md"
+    ],
+    "evidence": "within 1 hour"
+  },
+  {
+    "id": "A09",
+    "type": "answerable",
+    "question": "What is the hotel limit per night in Tier 1 cities?",
+    "expected_answer": "Up to Rs 6,500 per night.",
+    "expected_sources": [
+      "travel_expense_policy.pdf"
+    ],
+    "evidence": "hotel up to Rs 6,500 per night"
+  },
+  {
+    "id": "A10",
+    "type": "answerable",
+    "question": "Within how many days must I submit a travel expense claim?",
+    "expected_answer": "Within 15 days of returning from the trip.",
+    "expected_sources": [
+      "travel_expense_policy.pdf"
+    ],
+    "evidence": "within 15 days of returning from the trip"
+  },
+  {
+    "id": "A11",
+    "type": "answerable",
+    "question": "How much is reimbursed per km for using my own car for work?",
+    "expected_answer": "Rs 9 per km for a car.",
+    "expected_sources": [
+      "travel_expense_policy.pdf"
+    ],
+    "evidence": "Rs 9 per km for a car"
+  },
+  {
+    "id": "A12",
+    "type": "answerable",
+    "question": "Who has to approve international travel?",
+    "expected_answer": "A Vice President.",
+    "expected_sources": [
+      "travel_expense_policy.pdf"
+    ],
+    "evidence": "approval from a Vice President"
+  },
+  {
+    "id": "A13",
+    "type": "answerable",
+    "question": "Where and when is the Day 1 orientation?",
+    "expected_answer": "At the Floor 3 reception at 10:00 AM.",
+    "expected_sources": [
+      "employee_onboarding_guide.docx"
+    ],
+    "evidence": "Floor 3 reception at 10:00 AM"
+  },
+  {
+    "id": "A14",
+    "type": "answerable",
+    "question": "When is salary paid?",
+    "expected_answer": "On the last working day of every month.",
+    "expected_sources": [
+      "employee_onboarding_guide.docx"
+    ],
+    "evidence": "last working day of every month"
+  },
+  {
+    "id": "A15",
+    "type": "answerable",
+    "question": "How many days a week do confirmed employees work from the office?",
+    "expected_answer": "3 days a week: Tuesday, Wednesday and Thursday.",
+    "expected_sources": [
+      "work_from_home_policy.docx"
+    ],
+    "evidence": "3 days a week (Tuesday, Wednesday and Thursday)"
+  },
+  {
+    "id": "A16",
+    "type": "answerable",
+    "question": "How much is the monthly internet allowance for working from home?",
+    "expected_answer": "Rs 2,000 per month.",
+    "expected_sources": [
+      "work_from_home_policy.docx"
+    ],
+    "evidence": "Rs 2,000 per month"
+  },
+  {
+    "id": "A17",
+    "type": "answerable",
+    "question": "For how many days a year can I work remotely from another city?",
+    "expected_answer": "A maximum of 15 days per calendar year.",
+    "expected_sources": [
+      "work_from_home_policy.docx"
+    ],
+    "evidence": "The maximum is 15 days per calendar year"
+  },
+  {
+    "id": "A18",
+    "type": "answerable",
+    "question": "What is the limit for accepting gifts from clients or vendors?",
+    "expected_answer": "Gifts worth more than Rs 2,000 must not be accepted.",
+    "expected_sources": [
+      "code_of_conduct.md"
+    ],
+    "evidence": "gifts worth more than Rs 2,000"
+  },
+  {
+    "id": "A19",
+    "type": "answerable",
+    "question": "What are the response and resolution times for a P1 ticket?",
+    "expected_answer": "Response within 1 hour, resolution within 4 hours.",
+    "expected_sources": [
+      "it_helpdesk_faq.md"
+    ],
+    "evidence": "response within 1 hour, resolution within 4 hours"
+  },
+  {
+    "id": "A20",
+    "type": "answerable",
+    "question": "How often are laptops refreshed?",
+    "expected_answer": "Every 3 years (36 months).",
+    "expected_sources": [
+      "it_helpdesk_faq.md"
+    ],
+    "evidence": "refreshed every 3 years (36 months)"
+  },
+  {
+    "id": "A21",
+    "type": "answerable",
+    "question": "How many peers must give feedback in the annual review?",
+    "expected_answer": "At least 3 peers.",
+    "expected_sources": [
+      "performance_review_process.md"
+    ],
+    "evidence": "at least 3 peers"
+  },
+  {
+    "id": "A22",
+    "type": "answerable",
+    "question": "How long is a Performance Improvement Plan?",
+    "expected_answer": "60 days.",
+    "expected_sources": [
+      "performance_review_process.md"
+    ],
+    "evidence": "lasting 60 days"
+  },
+  {
+    "id": "F01",
+    "type": "followup",
+    "question": "And how many sick leave days?",
+    "expected_answer": "10 days per year.",
+    "expected_sources": [
+      "leave_policy.pdf"
+    ],
+    "history": [
+      [
+        "How many casual leave days do employees get per year?",
+        "Employees get 12 days of casual leave per year. [leave_policy.pdf, p.1]"
+      ]
+    ],
+    "evidence": "Sick Leave: 10 days per year"
+  },
+  {
+    "id": "F02",
+    "type": "followup",
+    "question": "What about Tier 3 cities?",
+    "expected_answer": "Up to Rs 3,000 per night.",
+    "expected_sources": [
+      "travel_expense_policy.pdf"
+    ],
+    "history": [
+      [
+        "What is the hotel limit per night in Tier 1 cities?",
+        "Up to Rs 6,500 per night. [travel_expense_policy.pdf]"
+      ]
+    ],
+    "evidence": "hotel up to Rs 3,000 per night"
+  },
+  {
+    "id": "F03",
+    "type": "followup",
+    "question": "What about employees on probation?",
+    "expected_answer": "They work from the office all 5 days.",
+    "expected_sources": [
+      "work_from_home_policy.docx"
+    ],
+    "history": [
+      [
+        "How many days a week do confirmed employees work from the office?",
+        "3 days a week: Tuesday, Wednesday and Thursday. [work_from_home_policy.docx]"
+      ]
+    ],
+    "evidence": "Employees on probation work from the office all 5 days"
+  },
+  {
+    "id": "F04",
+    "type": "followup",
+    "question": "And for P3?",
+    "expected_answer": "Response within 1 business day, resolution within 3 business days.",
+    "expected_sources": [
+      "it_helpdesk_faq.md"
+    ],
+    "history": [
+      [
+        "What are the response and resolution times for a P1 ticket?",
+        "Response within 1 hour and resolution within 4 hours. [it_helpdesk_faq.md]"
+      ]
+    ],
+    "evidence": "P3 (Medium, for example a single user issue): response within 1 business day, resolution within 3 business days"
+  },
+  {
+    "id": "U01",
+    "type": "unanswerable",
+    "question": "Who won the FIFA World Cup in 2022?",
+    "expected_answer": "Not in the documents - the assistant should refuse.",
+    "expected_sources": [],
+    "absent_terms": [
+      "World Cup",
+      "FIFA"
+    ]
+  },
+  {
+    "id": "U02",
+    "type": "unanswerable",
+    "question": "How many days of study leave can I take for an MBA?",
+    "expected_answer": "Not in the documents - the assistant should refuse.",
+    "expected_sources": [],
+    "absent_terms": [
+      "study leave",
+      "MBA"
+    ]
+  },
+  {
+    "id": "U03",
+    "type": "unanswerable",
+    "question": "What is the annual bonus percentage for employees rated 5?",
+    "expected_answer": "Not in the documents - the assistant should refuse.",
+    "expected_sources": [],
+    "absent_terms": [
+      "bonus"
+    ]
+  },
+  {
+    "id": "U04",
+    "type": "unanswerable",
+    "question": "What is the stock option vesting schedule?",
+    "expected_answer": "Not in the documents - the assistant should refuse.",
+    "expected_sources": [],
+    "absent_terms": [
+      "stock option",
+      "ESOP",
+      "vesting"
+    ]
+  }
+]
